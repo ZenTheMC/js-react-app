@@ -68,3 +68,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+OPTIONAL TASKS:
+
+- Instead of displaying unordered list items, manage the amount of tasks in state and let each task display its number. Yes, you could also do that with a simple ordered list, but where's the fun in that? Try using state.
+
+- Implement a delete button for each task. The delete button should remove the specific task from the state array. Don't forget to never directly assign state. Tip: You can remove each task by its id, but for that you have to save the task id together with the task title.
+
+- Implement an edit button for each task. When you press the edit button, this specific task should become changeable, and the edit button should change to a resubmit button.
